@@ -6,8 +6,8 @@ Physical layout:
 ```mermaid
 graph TD;
     VPS-->Router;
-    Router-->Small Server;
-    Unamanaged Switch-->Wireless AP 1;
-    Wireless AP 1-->Wireless AP 2;
-	Wireless AP 2-->Big Server;
+    Router-->'Small Server';
+    'Unamanaged Switch'-->Wireless AP 1';
+    'Wireless AP 1'-->'Wireless AP 2';
+	'Wireless AP 2'-->'Big Server';
 ```
